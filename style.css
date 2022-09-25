@@ -68,7 +68,9 @@ p{
   width:100%;
 }
 
-@media screen and (min-width: 768px) {
+
+
+@media screen and (max-width: 768px) {
   
  header {
     flex-direction: column;
@@ -80,6 +82,7 @@ p{
   .servicos{
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   .servicositem{
     margin-left: 100px;
